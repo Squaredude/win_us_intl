@@ -15,8 +15,8 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 # Fixing dead_acute "´" assignments by overwriting the assignments
 <dead_acute> <B> : "'B"
 <dead_acute> <b> : "'b"
-<dead_acute> <C> : "Ç" Ccedilla # LATIN CAPITAL LETTER C WITH CEDILLA
-<dead_acute> <c> : "ç" ccedilla # LATIN SMALL LETTER C WITH CEDILLA
+<dead_acute> <C> : "'C"
+<dead_acute> <c> : "'c"
 <dead_acute> <D> : "'D"
 <dead_acute> <d> : "'d"
 <dead_acute> <F> : "'F"
@@ -122,6 +122,16 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 
 ### DEAD_DIAERESIS
 # Fixing dead_diaeresis "¨" assignments by overwriting the assignments
+<dead_diaeresis> <A> : "\"A"
+<dead_diaeresis> <a> : "\"a"
+<dead_diaeresis> <E> : "\"E"
+<dead_diaeresis> <e> : "\"e"
+<dead_diaeresis> <I> : "\"I"
+<dead_diaeresis> <i> : "\"i"
+<dead_diaeresis> <O> : "\"O"
+<dead_diaeresis> <o> : "\"o"
+<dead_diaeresis> <B> : "\"B"
+<dead_diaeresis> <b> : "\"b"
 <dead_diaeresis> <B> : "\"B"
 <dead_diaeresis> <b> : "\"b"
 <dead_diaeresis> <C> : "\"C"
@@ -232,6 +242,16 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 
 ### DEAD_GRAVE
 # Fixing dead_grave "`" assignments by overwriting the assignments
+<dead_grave> <A> : "`A"
+<dead_grave> <a> : "`a"
+<dead_grave> <E> : "`E"
+<dead_grave> <e> : "`e"
+<dead_grave> <I> : "`I"
+<dead_grave> <i> : "`i"
+<dead_grave> <O> : "`O"
+<dead_grave> <o> : "`o"
+<dead_grave> <U> : "`U"
+<dead_grave> <u> : "`u"
 <dead_grave> <B> : "`B"
 <dead_grave> <b> : "`b"
 <dead_grave> <C> : "`C"
@@ -343,6 +363,16 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 
 ### DEAD_CIRCUMFLEX
 # Fixing dead_circumflex "^" assignments by overwriting the assignments
+<dead_circumflex> <A> : "^A"
+<dead_circumflex> <a> : "^a"
+<dead_circumflex> <E> : "^E"
+<dead_circumflex> <e> : "^e"
+<dead_circumflex> <I> : "^I"
+<dead_circumflex> <i> : "^i"
+<dead_circumflex> <O> : "^O"
+<dead_circumflex> <o> : "^o"
+<dead_circumflex> <U> : "^U"
+<dead_circumflex> <u> : "^u"
 <dead_circumflex> <B> : "^B"
 <dead_circumflex> <b> : "^b"
 <dead_circumflex> <C> : "^C"
@@ -454,6 +484,16 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 
 ### DEAD_TILDE
 # Fixing dead_tilde "~" assignments by overwriting the assignments
+<dead_tilde> <A> : "~A"
+<dead_tilde> <a> : "~a"
+<dead_tilde> <E> : "~E"
+<dead_tilde> <e> : "~e"
+<dead_tilde> <I> : "~I"
+<dead_tilde> <i> : "~i"
+<dead_tilde> <O> : "~O"
+<dead_tilde> <o> : "~o"
+<dead_tilde> <U> : "~U"
+<dead_tilde> <u> : "~u"
 <dead_tilde> <B> : "~B"
 <dead_tilde> <b> : "~b"
 <dead_tilde> <C> : "~C"
